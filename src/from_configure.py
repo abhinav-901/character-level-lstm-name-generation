@@ -1,0 +1,16 @@
+DATA_DIR = './data'
+FILE_NAME = 'names.txt'
+SEQUENCE_LENGTH = 50
+NUM_EPOCH = 5000
+BATCH_SIZE = 1
+PRINT_EVERY = 50
+HIDDEN_SIZE = 100
+NUM_DIRECTIONS = 1
+BI_DR = False
+N_LAYER = 2
+TEMPREATURE = .5
+LR = 0.001
+DROPOUT_RATE = 0.2
+START_STRING_FOR_PREDICTION = 'Ab'
+NAME_URL = r'''https://www.usna.edu/Users/cs/roche/courses/
+s15si335/proj1/files.php%3Ff=names.txt.html'''
